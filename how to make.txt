@@ -1,0 +1,4 @@
+gcc -o hello_world hello_world.c
+
+where hello_world is the name
+and hello_world.c is the file to compile
