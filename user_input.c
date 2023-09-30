@@ -2,11 +2,10 @@
 
 int main(void)
 {
-    printf("user input\n");
+char fullName[30];
 
+printf("Type your full name: \n");
+fgets(fullName, sizeof(fullName), stdin);
 
-char name[] = "John";
-
-
-    printf("%s", name);
+printf("Hello %s", fullName);
 }
