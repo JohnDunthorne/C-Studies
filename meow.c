@@ -8,7 +8,7 @@ int main(void)
     while (counter < 3)
     {
         printf("meow\n");
-        counter = counter + 1;
+        counter ++; // this is like writing counter += 1; ++ just means add 1, -- means subtract 1
     }
 }
 
