@@ -1,14 +1,17 @@
-// make a cat meow 3 times
+// make a cat meow based on user input
 
 #include <stdio.h>
 
 int main(void)
 {
-    int counter = 0;
-    while (counter < 3)
+    int j = 0;
+    int i;
+    printf("How many meows?: ");
+    scanf("%d", &i);
+    while (j < i)
     {
         printf("meow\n");
-        counter ++; // this is like writing counter += 1; ++ just means add 1, -- means subtract 1
+        j ++; // this is like writing i += 1; ++ just means add 1, -- means subtract 1
     }
 }
 
