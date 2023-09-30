@@ -2,12 +2,21 @@
 
 int main(void)
 {
-    int x;
-    int y;
+    int first;
+    int second;
 
     printf("Type first number: ");
-    scanf("%d", &x);
+    scanf("%d", &first);
     printf("Type second number: ");
-    scanf("%d", &y);
+    scanf("%d", &second);
+
+    if (first < second) 
+    {
+    printf("Your first number is smaller than your second number");
+    } else if (first > second) {
+        printf("Your first nuber is bigger than your second number");
+    } else {
+        printf("Your two numbers are the same");
+    }
 }
 
