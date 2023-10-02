@@ -6,8 +6,8 @@ int main(void)
 {
     int i;
     printf("how many blocks? ");
-    scanf("%d" &i);
-    for (i; i < 4; i++)
+    scanf("%d", &i);
+    for (i; i > 0; i--)
     {
         printf("?");
     }
