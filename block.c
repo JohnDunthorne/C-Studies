@@ -9,9 +9,8 @@ int main(void)
     int j;
     printf("We are making a block\n");
     printf("how many blocks wide would you like it to be? ");
-    scanf("%d", &i);
     printf("How many block high would you like it to be? ");
-    scanf("%d", &j);
+    scanf("%d %d", &i, &j);
 
     for (i; i > 0; i--)
     {
@@ -19,6 +18,7 @@ int main(void)
         {
             printf("#");
         }
+        printf("\n");
     }
    
 }
