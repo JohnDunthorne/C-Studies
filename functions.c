@@ -15,7 +15,7 @@ int get_size(void)
     do
     {
         printf("How big?");
-        scanf("%d", &n)
+        scanf("%d", &n);
     }
     while (n < 1);
     return n;
@@ -28,5 +28,5 @@ void print_grid(int size)
         for (int j = 0; j < size; j++)
         printf("#");
     }
-    print("\n")
+    printf("\n");
 }
