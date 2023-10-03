@@ -9,3 +9,14 @@ int main(void)
     print_grid(n);
 }
 
+int get_size(void)
+{
+    int n;
+    do
+    {
+        printf("How big?");
+        scanf("%d", &n)
+    }
+    while (n < 1);
+    return n;
+}
