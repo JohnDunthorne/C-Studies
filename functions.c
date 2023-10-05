@@ -1,4 +1,8 @@
 #include <stdio.h>
+// put defined functions
+// at the top like this
+// so that C knows they exist
+// further down
 int get_size(void);
 void print_grid(int size);
 int main(void)
