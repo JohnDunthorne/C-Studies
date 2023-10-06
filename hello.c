@@ -2,5 +2,9 @@
 
 int main(void)
 {
-    printf("Hello");
+    char name[] = "";
+
+    printf("What is your name? ");
+    scanf("%s", name);
+    printf("Hello %s", name);
 }
