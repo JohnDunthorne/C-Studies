@@ -11,12 +11,12 @@ int main (void)
     {
         if (numbers[i] == selection)
         {
-            printf("Found\n");
+            printf("Found on %d trys.\n", i + 1);
             return 0;
         }
         else if (numbers[i] != selection)
         {
-            printf("Tried %d times, ", i + 1);
+            printf("Tried %d times.\n", i + 1);
         }  
     }
     printf("Not found\n");
