@@ -3,25 +3,15 @@
 int main (void)
 {
     int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-    int selection;
-    printf("please select a number between 1 and 20: ");
-    scanf("%i", &selection);
+    int n = 34;
 
-    for (int i = 0; i < selection; i++)
+    for (int i = 0; i < 20; i++)
     {
-        if (numbers[i] != selection); 
-        {
-        printf("Tried, ");
-        }
-        if (numbers[i] == selection);
+        if (numbers[i] == n)
         {
             printf("Found\n");
             return 0;
         }    
-        if (numbers[i] != selection); 
-        {
-        printf("Tried, ");
-        }
     }
     printf("Not found\n");
     return 1;    
