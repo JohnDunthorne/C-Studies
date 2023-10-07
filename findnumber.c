@@ -9,11 +9,19 @@ int main (void)
 
     for (int i = 0; i < selection; i++)
     {
+        if (numbers[i] != selection); 
+        {
+        printf("Tried, ");
+        }
         if (numbers[i] == selection);
         {
             printf("Found\n");
             return 0;
         }    
+        if (numbers[i] != selection); 
+        {
+        printf("Tried, ");
+        }
     }
     printf("Not found\n");
     return 1;    
