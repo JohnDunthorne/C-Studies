@@ -4,22 +4,33 @@
     <title>Pictures</title>
     <style>
         .image-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 300px; /* Adjust the height as needed */
+            position: relative;
         }
         .image-container img {
-            width: 100px; /* Adjust the image width as needed */
+            position: absolute;
+        }
+        .image1 {
+            left: 0;
+            bottom: 0;
+        }
+        .image2 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .image3 {
+            right: 0;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
     <h1>Picture Gallery</h1>
     <div class="image-container">
-        <img src="C:\Users\Bedroom\Documents\C Studies\quina1.jfif" alt="Image 1">
-        <img src="C:\Users\Bedroom\Documents\C Studies\quina2.jfif" alt="Image 2">
-        <img src="C:\Users\Bedroom\Documents\C Studies\quina3.jfif" alt="Image 3">
+        <img class="image1" src="C:\Users\Bedroom\Documents\C Studies\quina1.jfif" alt="Image 1">
+        <img class="image2" src="C:\Users\Bedroom\Documents\C Studies\quina2.jfif" alt="Image 2">
+        <img class="image3" src="C:\Users\Bedroom\Documents\C Studies\quina3.jfif" alt="Image 3">
     </div>
 </body>
 </html>
+
