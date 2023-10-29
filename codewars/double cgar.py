@@ -1,4 +1,11 @@
-s = "String"
+def double_char(s):
+    doubled = ""
+    for i in s:
+        doubled +=i * 2
+    return doubled
+    
+s = "string"
 
-for i in s:
-    print(i *2, end ="")
+result = double_char(s)
+
+print(result)
