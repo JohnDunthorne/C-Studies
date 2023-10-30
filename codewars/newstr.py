@@ -7,6 +7,6 @@ def dna_to_rna(dna):
             new_str += "U"
     return new_str
 
-dna = "CTREUS"
+dna = "TTTTTTTTCTREUS"
 
 print(dna_to_rna(dna))
